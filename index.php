@@ -99,9 +99,9 @@
     		$weight = htmlspecialchars($_REQUEST['weight1']); 
    			$hight = htmlspecialchars($_REQUEST['centi1']); 
         if (!empty($weight) && !empty($hight)){
-            $hight = ($hight*0.01)*2;
+            $hight = ((htmlspecialchars($_REQUEST['centi1'])*0.01));
             if(is_numeric($weight) && is_numeric($hight)){
-              $result = $weight/$hight;
+              $result = $weight/($hight*$hight);
               if($result>30){
                   echo "ค่าBMI = ".$result."   อ้วนระดับ2 คุณเสี่ยงต่อการเกิดโรคที่มากับความอ้วน หากคุณมีเส้นรอบเอวมากกว่าเกณฑ์ปกติคุณจะเสี่ยงต่อการเกิดโรคสูง คุณต้องควบคุมอาหาร และออกกำลังกายอย่างจริงจัง" ;
               }else if($result<=30 && $result>= 25){
