@@ -115,7 +115,7 @@
               }
           }
         }else{
-          echo "Please input";
+          echo "Warnning! You don't input. Please choose menu and input again";
         }
 		} 
 		if ($_SERVER["REQUEST_METHOD"] == "POST" && !empty($_POST['BMR'])){
@@ -158,7 +158,7 @@
               echo "TDEE (Total Daily Energy Expenditure) พลังงานที่ต้องใช้ในแต่ละวันของผู้หญิง =  ".$total1. "กิโลแคลอรี่";
           } 
         }else{
-          echo "Please input";
+          echo "Warnning! You don't input. Please choose menu and input again";
         }
    			
 		}
@@ -178,10 +178,10 @@
                 echo $result."   ระดับคอลเลสเตอรอลค่อนข้างสูง";
             }
         }else{
-            echo "Please input";
+            echo "Warnning! You don't input. Please choose menu and input again";
         }
         } else{
-          echo "Please input";
+          echo "Warnning! You don't input. Please choose menu and input again";
         }
 
 		}
