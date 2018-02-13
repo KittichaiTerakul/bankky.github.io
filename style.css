@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+	font-family: 'Itim', cursive;
+	background: linear-gradient(124deg, DeepPink  , Crimson  , DarkSalmon  ,HotPink  , IndianRed    , MediumSlateBlue , Pink , Salmon , Tomato ,PeachPuff ,PaleGreen );
+	background-size: 1800% 1800%;
+	-webkit-animation: rainbows 25s ease infinite;
+	font-size: 20px;
+	color: DarkGreen ;
+}
+@-webkit-keyframes rainbows {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+.btn,.sub{
+	background-color: coral;
+	font-size: 30px;
+	color: brown;
+	border-width:  2px;
+	border-color: brown;
+}
+.btn:hover,.sub:hover{
+	background-color: white;
+
+}
+.selec,.activities{
+	font-size: 20px;
+}
+.bmiCal h1,.bmrCal h1,.calCo h1{
+	background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+ 	background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  	color:transparent;
+  	-webkit-background-clip: text;
+  	background-clip: text;
+	font-size: 50px;
+}
+.rainbow {
+	font-size: 80px;
+  	-webkit-animation: rainbow 1s infinite; 
+}
+@-webkit-keyframes rainbow{
+	
+	20%{color: crimson;}
+	60%{color: red;}
+	100%{color: blue;}	
+}
+
+.centi1, .weight1,.age1{
+	width: 100px;
+	height: 25px;
+	font-size: 20px;
+}
+.bmiCal h2,.bmrCal h2,.calCo h2{
+	font-size: 30px;
+	color: black;
+	text-shadow: white 2px 2px;
+}
+
